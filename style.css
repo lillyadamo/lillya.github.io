@@ -1,14 +1,14 @@
+/* style.css */
+
 body {
-  background-color; #2d2d39;
-  color; #FFFFFF
+  background-color: #e6ccff;
+  color: #28004d;
 }
 h1 {
-  color:#FFFFFF;
-  text-align: center
+  color: #28004d;
+  text-align: center;
 }
-hr{boarder-top:1px dotted #0000
-}
-p {
-  color:#FFFFFF;
+p{
+  color: #28004d;
   text-align: center;
 }
