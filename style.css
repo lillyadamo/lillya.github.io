@@ -1,20 +1,11 @@
 /* style.css */
 
-@font-face {
-    font-family: 'nimbus_sans_lbold';
-    src: url('nimbussanl-bol-webfont.woff2') format('woff2'),
-         url('nimbussanl-bol-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-}
 body {
   background-color: #524d83;
   color: #e6e6ff;
 }
+
+
 li {
   border-right: 1px solid #bbb;
 }
