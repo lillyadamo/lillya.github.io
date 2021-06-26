@@ -15,10 +15,12 @@ li:last-child {
 }
 
 h1 {
+  text-align: center;
   color: #000000;
 }
 
 h3 {
+  text-align: center;
   color: #e6e6ff;
 
 }
@@ -28,7 +30,7 @@ li {
 }
 
 p{
-  color: #e6e6ff;
+  color: #000000;
 }
 
 table {
