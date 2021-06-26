@@ -3,6 +3,7 @@
 body {
   background-color: #FFFFFF;
   color: #000000;
+
 }
 
 
@@ -12,11 +13,13 @@ li {
 
 li:last-child {
   border-right: none;
+
 }
 
 h1 {
   text-align: center;
   color: #000000;
+
 }
 
 h3 {
@@ -26,11 +29,14 @@ h3 {
 }
 
 li {
+
   color: #e6e6ff;
 }
 
 p{
+  text-align: center;
   color: #000000;
+
 }
 
 table {
