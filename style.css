@@ -1,5 +1,6 @@
 /* style.css */
 
+
 body {
   background-color: #FFFFFF;
   color: #fa050d;
@@ -7,43 +8,85 @@ body {
 }
 
 
-li {
-  border-right: 1px solid #bbb;
-}
-
-li:last-child {
-  border-right: none;
-
-}
 
 h1 {
   text-align: center;
   font-size: 18px;
   line-height: 10;
-  color: ##fa050d;
+  color: #c7382e;
 
 }
 
-h3 {
+h1 a {
+  color: #c7382e;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #000000;
+  text-decoration: none;
+
+}
+
+nav ul {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+nav ul li  {
   display: inline-block;
-  font-size: 10px;
-  color: #000000;
-
-}
-
-li {
-
-  color: #e6e6ff;
-}
-
-p{
   text-align: center;
-  font-size: 13px;
-  color: #000000;
 
 }
 
-table {
-  color: #e6e6ff;
+nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  padding: 15px;
+  font-size: 15px;
+  color: #666060
+
+}
+
+nav ul li a:hover {
+  color: #ed594e;
+
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  color: #000000;
+  margin-top: 50px;
+
+}
+
+
+
+
+
+/*visited link*/
+a:link, a:visited {
+  text-decoration:none;
+  color: #666060;
+
+}
+
+/*mouse over link*/
+a:hover {
+  color: #fa050d;
+
+}
+
+/*selected link*/
+
+a:active {
+  color: #c7382e;
 
 }
