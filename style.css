@@ -59,10 +59,19 @@ nav ul li a:hover {
 
 }
 
+h3  {
+  text-align: center;
+  color: #666060;
+  margin-top: 100px;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+}
+
 p {
   text-align: center;
   color: #000000;
-  margin-top: 50px;
+  margin-top: 10px;
 
 }
 
