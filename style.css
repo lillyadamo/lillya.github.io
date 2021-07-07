@@ -4,6 +4,7 @@
 body {
   background-color: #FFFFFF;
   color: #fa050d;
+  font-size: 15px;
 
 }
 
@@ -11,7 +12,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 100%;
   line-height: 10;
   color: #c7382e;
 
@@ -49,7 +50,6 @@ nav ul li a {
   text-align: center;
   width: 100px;
   padding: 15px;
-  font-size: 15px;
   color: #666060
 
 }
@@ -61,7 +61,6 @@ nav ul li a:hover {
 
 p {
   text-align: center;
-  font-size: 15px;
   color: #000000;
   margin-top: 50px;
 
