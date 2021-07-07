@@ -67,18 +67,18 @@ p {
 
 }
 
-.main-name:link, .main-name:visited {
+main-name:link, .main-name:visited {
   color: #c7382e;
 }
 
 /* Hovering state, both new and visited before. Lighter Red #d8625a*/
-.main-name:hover,
-.main-name:visited:hover {
+main-name:hover,
+main-name:visited:hover {
   color: #d8625a;
 }
 /* Clicked, also both new and visited before. Darker Red #912922*/
-.main-name:active,
-.main-name:visited:active {
+main-name:active,
+main-name:visited:active {
   color: #912922;
 }
 
