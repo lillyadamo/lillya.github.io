@@ -71,7 +71,33 @@ h3  {
 p {
   text-align: left;
   color: #000000;
-  margin-left: 30%;
+}
+
+
+.header-container {
+
+  color: #FFFFFF;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red; /*DEBUG*/
+
+}
+
+.header {
+
+  width: 900px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid blue; /*DEBUG*/
+
 }
 
 
@@ -108,5 +134,126 @@ a:hover {
 
 a:active {
   color: #c7382e;
+
+}
+
+.menu-container {
+
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red; /*DEBUG*/
+
+}
+
+.menu {
+
+  width: 900px;
+  margin: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid blue; /*DEBUG*/
+
+}
+
+.button {
+
+  width: 175px;
+  height: 50px;
+
+  /* Flexbox vars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid blue; /*DEBUG*/
+
+}
+
+.footer-container {
+
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red; /*DEBUG*/
+
+}
+
+.footer {
+
+  width: 700px;
+  margin: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border: 1px solid blue; /*DEBUG*/
+
+}
+
+.info-container {
+
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red; /*DEBUG*/
+
+}
+
+.info {
+
+  width: 700px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  border: 1px solid blue; /*DEBUG*/
+
+}
+
+.info-h1 {
+
+  height: 50px;
+
+  /* Flexbox vars */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+
+  font-size: 1.2em;
+  font-style: bold;
+  color: #000000;
+
+  border: 1px solid blue; /*DEBUG*/
+
+}
+
+.info-h1-list {
+
+  margin: 10px;
+  margin-left: -30px;
+
+  height: 50px;
+
+  font-size: 1.2em;
+  font-style: bold;
+  color: #000000;
+
+  /*border: 1px solid blue; /*DEBUG*/
+
+}
+
+.email {
+
+  color: #6e6e6e;
 
 }
